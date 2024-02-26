@@ -1,0 +1,57 @@
+.wrapper{
+  --search-border-radius: 92px;
+  --search-height: 46px;
+  --search-top-spacer: 9px;
+  --search-button-width: 52px;
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  z-index: 1000; 
+  height: var(--default-layout-header-height, 60px);
+  box-shadow: 0px 1px 1px var(--color-separate);
+  background-color: var(--background-white);
+  padding: 0px 20px;
+}
+
+.inner{
+  height: 100%;
+  width: var(--default-layout-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-wrapper{
+  width: 300px;
+  .logo{
+    cursor: pointer;
+  }
+  margin: 9px 0px 9px 15px;
+}
+
+.action{
+  min-width: 270px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.messages, .in-box{
+  font-size: 20px;
+  border: none;
+  background: none;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.plus-icon{
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.use-avatar{
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}

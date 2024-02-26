@@ -1,0 +1,35 @@
+.wrapper-menu{
+  width: 223px;
+  height: 100%;
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-item{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black);
+
+  &.separate {
+    border-top: 1px solid var(--color-line-space);
+  }
+
+}
+
+.inner{
+  width: 223px;
+  height: 41px;
+}
+
+.sideBar{
+  width: 208px;
+  padding: 20px 0px 26px 0px;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid rgba(22, 24, 35, 0.1);
+}

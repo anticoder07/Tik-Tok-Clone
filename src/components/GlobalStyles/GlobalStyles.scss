@@ -1,0 +1,68 @@
+@import "normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --primary: rgb(254, 44, 85);
+  --background-white: #ffffff;
+  --background-search: rgba(22, 24, 35, 0.06);
+  --background-video-componet: rgb(37,37,37);
+  --background-hover-search-btn: rgba(22, 24, 35, 0.04);
+  --color-search-btn: rgba(22, 24, 35, 0.75);
+  --color-line-space: rgba(22, 24, 35, 0.12);
+  --color-focus-boder-search: rgba(22, 24, 35, 0.2);
+  --color-clear-loading: rgba(22, 24, 35, 0.34);
+  --color-hover-whiteBasic-btn: rgba(22, 24, 35, 0.03);
+  --color-hover-default: rgba(22, 24, 35, 0.04);
+  --color-login-hint: rgba(22, 24, 35, 0.5);
+  --color-circle-btn: rgba(22, 24, 35, 0.06);
+  --color-separate: rgba(22, 24, 35, 0.1);
+  --color-gray-no-opacity: rgb(22, 24, 35);
+  --color-action-text: rgba(22, 24, 35, 0.75);
+
+  --default-layout-header-height: 60px;
+  --default-layout-width: 1360px;
+  --default-layout-horizontal-spacer: 0px;
+  --default-layout-sidebar-width: 222px;
+}
+
+.dark{
+  --background-white: rgb(18, 18, 18);
+  --black: #ffffff;
+
+  background: var(--background-white);
+  
+  --background-search: rgba(47, 47, 47);
+  --white: rgb(37,37,37);
+  --color-search-btn: rgba(81, 81, 81);
+  --background-hover-search-btn: rgba(255, 255, 255, 0.06);
+  --color-search-btn: rgba(255, 255, 255, 0.5);
+  --color-line-space:rgba(255, 255, 255, 0.4);
+  --color-focus-boder-search: rgba(255, 255, 255, 0.2);
+  --color-clear-loading: rgba(255, 255, 255, 0.4);
+  --color-hover-whiteBasic-btn: rgba(255, 255, 255, 0.06);
+  --color-hover-default: rgba(255, 255, 255, 0.06);
+  --color-login-hint: rgba(255, 255, 255, 0.5);
+  --color-circle-btn: rgba(255, 255, 255, 0.08);
+  --color-separate: rgba(255, 255, 255, 0.12);
+  --color-gray-no-opacity: rgba(255, 255, 255, 0.9);
+  --color-action-text: rgba(255, 255, 255, 0.6);
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+

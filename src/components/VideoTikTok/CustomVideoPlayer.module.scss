@@ -1,0 +1,89 @@
+.video-container{
+  // position: absolute;
+  // display: flex;
+  // flex-direction: column;
+  // width: 100vw;
+  // height: 100vh;
+  overflow: hidden;
+}
+
+.video-comp{
+  border-radius: 12px;
+  background-color: var(--background-video-componet);
+}
+
+
+.controls-container{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  bottom: 60px;
+}
+
+.controls{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 684px; 
+  height: 33px;
+  font-size: 24px;
+}
+
+.icon-button{
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.control-play{
+  width: 215px;
+}
+
+.time_progressbarContainer {
+  background-color: rgba(255, 255, 255, 0.34);
+  border-radius: 15px;
+  width: 21rem; 
+  height: 2px;
+  z-index: 30;
+  margin: 0 13px;
+}
+
+.time_progressBar {
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+.time-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text-time{
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+
+.controlsTime{
+  width: 34px;
+}
+
+.controlsVideoTime{
+  position: relative;
+  left: -4px;
+}
+
+.video-container:hover .controls-container {
+  opacity: 1;
+}
+
+.controls-container {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

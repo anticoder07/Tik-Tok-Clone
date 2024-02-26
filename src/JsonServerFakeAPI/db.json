@@ -1,0 +1,167 @@
+{
+  "content": {
+    "data": [
+      {
+        "id": 1,
+        "name": "cao ba huong",
+        "tick": true,
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Big_Buck_Bunny_thumbnail_vlc.png/1200px-Big_Buck_Bunny_thumbnail_vlc.png",
+        "description": "Wait for it… 😱🎻 This is the girl I met in the video that went really viral (+400M views). We decided to meet again and she asked me to play « Carol of the bells ».",
+        "video": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "likes": 123,
+        "comments": 323,
+        "markers": 22,
+        "shares": 10
+      },
+      {
+        "id": 2,
+        "name": "huong dep trai",
+        "tick": false,
+        "avatar": "https://i.ytimg.com/vi_webp/gWw23EYM9VM/maxresdefault.webp",
+        "description": "Wait for it… 😱🎻 This is the girl I met in the video that went really viral (+400M views). We decided to meet again and she asked me to play « Carol of the bells ».",
+        "video": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "likes": 32,
+        "comments": 212,
+        "markers": 677,
+        "shares": 8798
+      },
+      {
+        "id": 3,
+        "name": "rose",
+        "tick": false,
+        "avatar": "https://i.ytimg.com/vi/Dr9C2oswZfA/maxresdefault.jpg",
+        "description": "Cao ba huong dep trai nhat vu tru",
+        "video": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "likes": 2131,
+        "comments": 2134123,
+        "markers": 1231,
+        "shares": 121
+      },
+      {
+        "id": 4,
+        "name": "phan manh quynh",
+        "tick": true,
+        "avatar": "https://img.jakpost.net/c/2019/09/03/2019_09_03_78912_1567484272._large.jpg",
+        "description": "day la ca si, nhac si hay nhat the gioi",
+        "video": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "likes": 3424,
+        "comments": 234,
+        "markers": 22,
+        "shares": 1
+      }
+    ]
+  },
+  
+  "headerAvatar": {
+    "data": {
+      "id": 1,
+      "avatar": "https://img.jakpost.net/c/2019/09/03/2019_09_03_78912_1567484272._large.jpg"
+    }
+  },
+
+  "usersSearch": {
+      "data": [
+          {
+              "id": 3927,
+              "first_name": "so",
+              "last_name": "Tiredddd2",
+              "full_name": "so Tiredddd2",
+              "nickname": "beona",
+              "avatar": "https://files.fullstack.edu.vn/f8-tiktok/users/3927/63da2f11ce330.jpg",
+              "bio": "siu cấp trầm cảmm",
+              "tick": false,
+              "followings_count": 15,
+              "followers_count": 19,
+              "likes_count": 60,
+              "website_url": "https://fullstack.edu.vn/",
+              "facebook_url": "",
+              "youtube_url": "",
+              "twitter_url": "",
+              "instagram_url": "",
+              "created_at": "2022-10-17 19:20:26",
+              "updated_at": "2024-02-16 16:40:34"
+          },
+          {
+              "id": 5287,
+              "first_name": "Diêm",
+              "last_name": "Trường",
+              "full_name": "Diêm Trường",
+              "nickname": "ddt",
+              "avatar": "https://files.fullstack.edu.vn/f8-tiktok/users/5287/642c714f91301.png",
+              "bio": "✨ 2000✨\nVietnam 🇻🇳\nĐỪNG LẤY VIDEO CỦA TÔI ĐI SO SÁNH NỮA. XIN HÃY TÔN TRỌNG !",
+              "tick": false,
+              "followings_count": 11,
+              "followers_count": 10,
+              "likes_count": 11,
+              "website_url": "https://fullstack.edu.vn/",
+              "facebook_url": "",
+              "youtube_url": "",
+              "twitter_url": "",
+              "instagram_url": "",
+              "created_at": "2023-03-25 20:42:54",
+              "updated_at": "2023-12-09 15:45:26"
+          },
+          {
+              "id": 5203,
+              "first_name": "Duy",
+              "last_name": "Khang",
+              "full_name": "Duy Khang",
+              "nickname": "duykhang1301",
+              "avatar": "https://files.fullstack.edu.vn/f8-tiktok/users/5203/644a3d01ca0cb.jpg",
+              "bio": "✨ 2003 ✨\r\nVietnam 🇻🇳\r\nĐỪNG LẤY VIDEO CỦA TÔI ĐI SO SÁNH NỮA. XIN HÃY TÔN TRỌNG !",
+              "tick": false,
+              "followings_count": 5,
+              "followers_count": 25,
+              "likes_count": 85,
+              "website_url": "https://fullstack.edu.vn/",
+              "facebook_url": "",
+              "youtube_url": "",
+              "twitter_url": "",
+              "instagram_url": "",
+              "created_at": "2023-03-01 20:52:36",
+              "updated_at": "2024-02-18 12:30:42"
+          },
+          {
+              "id": 4799,
+              "first_name": "Trung Duc",
+              "last_name": "Nguyen",
+              "full_name": "Trung Duc Nguyen",
+              "nickname": "baby4ever11",
+              "avatar": "https://files.fullstack.edu.vn/f8-tiktok/users/4799/63ebb969941a9.jpg",
+              "bio": "hi anh em",
+              "tick": false,
+              "followings_count": 16,
+              "followers_count": 11,
+              "likes_count": 25,
+              "website_url": "https://www.facebook.com/lengoc.thai.5",
+              "facebook_url": "https://www.facebook.com/lengoc.thai.5",
+              "youtube_url": "",
+              "twitter_url": "",
+              "instagram_url": "",
+              "created_at": "2023-01-03 14:15:00",
+              "updated_at": "2024-01-09 22:45:35"
+          },
+          {
+              "id": 211,
+              "first_name": "Đỗ",
+              "last_name": "Xuân Bách",
+              "full_name": "Đỗ Xuân Bách",
+              "nickname": "xuanbachdev",
+              "avatar": "https://files.fullstack.edu.vn/f8-tiktok/users/211/63c12e11ab47e.jpg",
+              "bio": "Xuanbach.dev",
+              "tick": false,
+              "followings_count": 7,
+              "followers_count": 105,
+              "likes_count": 35,
+              "website_url": "https://fullstack.edu.vn/",
+              "facebook_url": "https://www.facebook.com/xuanbachh.dev",
+              "youtube_url": "",
+              "twitter_url": "",
+              "instagram_url": "",
+              "created_at": "2022-09-11 12:25:57",
+              "updated_at": "2024-01-17 16:48:12"
+          }
+      ]
+  }
+}
+

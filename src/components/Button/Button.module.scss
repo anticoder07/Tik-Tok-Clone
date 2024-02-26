@@ -1,0 +1,136 @@
+
+.wrapper{
+  display: inline-flex;
+  align-items: center;
+  // min-width: 110px;
+  padding: 0px 16px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: 'ProximaNova', sans-serif;
+  background-color: var(--white);
+  border: 1px solid transparent;
+  user-select: none;
+  cursor: pointer;
+  
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  &.noClick {
+    pointer-events: none;
+  }
+}
+
+.icon + .title,
+.title + .icon {
+  margin-left: 8px;
+}
+  
+  .icon {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+  color: var(--black);
+}
+
+.primary {
+  justify-content: center;
+  min-width: 100px;
+  // color: var(--white);
+  color: #ffffff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+
+  &:hover {
+    border-color: var(--primary);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
+  }
+}
+
+.whiteBasic{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background: var(--white);
+  color: var(--black);
+  border: 1px solid rgba(22, 24, 35, 0.12);
+
+  &:hover {
+    background: var(--color-hover-whiteBasic-btn);
+  }
+}
+
+.outline {
+  justify-content: center;
+  color: var(--primary);
+  border-color: currentColor;
+  min-width: 110px;
+
+  &:hover {
+    border-color: currentColor;
+    background-color: rgba(254, 44, 85, 0.06);
+  }
+}
+
+.text {
+  min-width: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--black);
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.small {
+  min-width: 88px;
+  padding: 4px 16px;
+  min-width: 110px;
+}
+
+.large {
+  padding: 20px 16px;
+  min-width: 208px;
+  min-height: 36px;
+}
+
+.hoverDefault{
+  &:hover {
+    border-radius: 0px;
+    background: var(--color-hover-default);
+  }
+}
+
+
+.red-button{
+  color: rgb(254, 44, 85);;
+}
+
+.circle{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  min-width: none;
+  min-height: none;
+  padding: 0;
+  margin: 8px 0px;
+  background-color: var(--color-circle-btn);
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .title{
+    font-size: 21px;
+  }
+}
+
+.yellow-bookMark{
+  color: #fef32c;
+}
+
+.red-heart{
+  color: #fe2c55;
+}
